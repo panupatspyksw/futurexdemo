@@ -1,0 +1,1 @@
+module.exports = require('./bundle-url').getBundleURL() + "red.HASH_REF_4ac134150c9785a17dbc8a56d5535067.png"

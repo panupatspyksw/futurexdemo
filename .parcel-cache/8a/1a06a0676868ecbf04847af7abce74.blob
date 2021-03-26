@@ -1,0 +1,3 @@
+require('../img/red.png');
+console.log("HELLO WORLD index.js");
+document.body.backgroundColor = "red";

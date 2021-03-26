@@ -1,0 +1,6 @@
+var _imgRedPng = require('../img/red.png');
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _imgRedPngDefault = _parcelHelpers.interopDefault(_imgRedPng);
+console.log("HELLO WORLD index.js");
+var tmp_path = URL.createObjectURL(_imgRedPngDefault.default);
+document.body.style.background = tmp_path;

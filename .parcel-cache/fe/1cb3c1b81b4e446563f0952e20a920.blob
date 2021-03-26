@@ -1,0 +1,5 @@
+var _ใImgRedPng = require('ใ./img/red.png');
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _ใImgRedPngDefault = _parcelHelpers.interopDefault(_ใImgRedPng);
+document.getElementById("test").src = _ใImgRedPngDefault.default;
+document.body.style.backgroundImage = "url(" + _ใImgRedPngDefault.default + ")";

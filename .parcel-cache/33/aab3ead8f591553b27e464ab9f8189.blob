@@ -1,0 +1,13 @@
+var _imgRedPng = require('../img/red.png');
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _imgRedPngDefault = _parcelHelpers.interopDefault(_imgRedPng);
+console.log("HELLO WORLD index.js");
+var html = _imgRedPngDefault.default;
+var myBlob = new Blob(html, {
+  type: 'text/xml'
+});
+var myReader = new FileReader();
+myReader.onload = function (event) {
+  console.log(JSON.stringify(myReader.result));
+};
+myReader.readAsText(myBlob);

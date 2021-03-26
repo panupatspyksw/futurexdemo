@@ -1,0 +1,1 @@
+module.exports = require('./bundle-url').getBundleURL() + "ocean.HASH_REF_2bc571981b9941c6bac33b8272508448.jpg"

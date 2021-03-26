@@ -1,0 +1,11 @@
+var _imgRedPng = require('../img/red.png');
+var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+var _imgRedPngDefault = _parcelHelpers.interopDefault(_imgRedPng);
+document.getElementById("test").src = _imgRedPngDefault.default;
+document.body.style.backgroundImage = "url(" + _imgRedPngDefault.default + ")";
+console.log(_imgRedPngDefault.default);
+const obj = _imgRedPngDefault.default;
+const blob = new Blob([JSON.stringify(obj, null, 2)], {
+  type: 'application/json'
+});
+console.log(_imgRedPngDefault.default);

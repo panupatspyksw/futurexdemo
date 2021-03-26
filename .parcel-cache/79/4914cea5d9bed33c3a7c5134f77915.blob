@@ -1,0 +1,1 @@
+module.exports = require('./bundle-url').getBundleURL() + "vertex.HASH_REF_6b4ea2869ee335408327d30e7e3f6104.glsl"
